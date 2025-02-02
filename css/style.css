@@ -1,0 +1,254 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+  font-weight: 500;
+}
+.logo {
+  margin-right: 76px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+img {
+  display: block;
+}
+.logo:hover,
+.logo:focus {
+  color: #404bbf;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+p {
+  margin: 0;
+}
+span {
+  color: #2e2f42;
+}
+button {
+  background-color: #4d5ae5;
+  display: block;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  min-width: 169px;
+  height: 56px;
+}
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+address {
+  font-style: normal;
+}
+
+.section-titel {
+  margin-bottom: 72px;
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 111%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+  text-transform: capitalize;
+}
+.section-two {
+  padding: 120px 0 120px;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.section-list {
+  display: flex;
+  gap: 24px;
+}
+
+header {
+  background: #ffffff;
+  border-bottom: 1px solid #e7e9fc;
+}
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px 0 15px;
+}
+.conteiner-header {
+  display: flex;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+.page-nav {
+  display: flex;
+  gap: 40px;
+}
+.page-nav .nav-link {
+  padding: 24px 0 24px;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.page-nav .nav-link:hover,
+.page-nav .nav-link:active {
+  color: #404bbf;
+}
+.page-nav .nav-link:focus {
+  color: #404bbf;
+}
+.list-contacts {
+  display: flex;
+  gap: 40px;
+}
+.list-contacts .item-contacts {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.list-contacts .item-contacts:hover,
+.list-contacts .item-contacts:focus {
+  color: #404bbf;
+}
+.page-title {
+  max-width: 496px;
+  font-size: 56px;
+  line-height: 107%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #ffffff;
+}
+.button-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+
+button:hover,
+button:focus {
+  background-color: #404bbf;
+}
+
+.section-item-list {
+  background-color: #ffffff;
+  flex-basis: calc((100% - 72px) / 4);
+}
+
+.section-subtitel {
+  text-align: center;
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.section-text {
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+}
+.icon-list-item {
+  display: flex;
+  gap: 24px;
+}
+
+.section-team {
+  padding: 120px 0 120px;
+  background-color: #f4f4fd;
+}
+.section-page-titel {
+  background-color: #2e2f42;
+  padding: 188px 0 188px;
+}
+
+.icon-list {
+  border-radius: 0px 0px 4px 4px;
+  width: calc((100% - 72px) / 4);
+  background-color: #ffffff;
+}
+.name-title {
+  padding: 32px 0 32px;
+}
+.section-four {
+  padding: 120px 0 120px 0;
+}
+.list-portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.item-portfolio {
+  width: calc((100% - 48px) / 3);
+}
+.name-application {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+footer {
+  padding: 100px 0 100px;
+  background-color: #2e2f42;
+}
+.footerlogo {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+.footer-text {
+  max-width: 264px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 117%;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
