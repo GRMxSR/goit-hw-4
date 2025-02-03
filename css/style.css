@@ -98,11 +98,37 @@ header {
   background: #ffffff;
   border-bottom: 1px solid #e7e9fc;
 }
+
+/*section1 style start */
+
+.section-page-titel {
+  background-color: #2e2f42;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/office1.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  padding: 188px 0 188px;
+}
+
 .container {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px 0 15px;
 }
+.page-title {
+  max-width: 496px;
+  font-size: 56px;
+  line-height: 107%;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #ffffff;
+}
+/*section1 style end */
 .conteiner-header {
   display: flex;
 }
@@ -144,14 +170,7 @@ header {
 .list-contacts .item-contacts:focus {
   color: #404bbf;
 }
-.page-title {
-  max-width: 496px;
-  font-size: 56px;
-  line-height: 107%;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #ffffff;
-}
+
 .button-text {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -195,10 +214,6 @@ button:focus {
 .section-team {
   padding: 120px 0 120px;
   background-color: #f4f4fd;
-}
-.section-page-titel {
-  background-color: #2e2f42;
-  padding: 188px 0 188px;
 }
 
 .icon-list {
