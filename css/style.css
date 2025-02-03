@@ -14,6 +14,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 img {
@@ -177,7 +178,7 @@ header {
 .page-nav li:first-child .nav-link {
   color: #404bbf;
   position: relative;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .page-nav li:first-child .nav-link::after {
   content: "";
@@ -200,7 +201,7 @@ header {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .list-contacts .item-contacts:hover,
 .list-contacts .item-contacts:focus {
@@ -265,12 +266,50 @@ button:focus {
 }
 
 .icon-list {
-  border-radius: 0px 0px 4px 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 32px;
+  border-radius: 0 0 4px 4px;
+  padding: 0px 0px 32px 0px;
+  width: 264px;
+  height: 428px;
   width: calc((100% - 72px) / 4);
-  background-color: #ffffff;
+  background-color: #fff;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .name-title {
   padding: 32px 0 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8px;
+  width: 232px;
+  height: 104px;
+}
+.social-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 24px;
+  width: 232px;
+  height: 40px;
+}
+.social-list .social-list-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #4d5ae5;
+}
+.social-list .social-icon {
+  fill: #f4f4fd;
 }
 .section-four {
   padding: 120px 0 120px 0;
