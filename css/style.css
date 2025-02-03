@@ -38,15 +38,7 @@ p {
 span {
   color: #2e2f42;
 }
-button {
-  background-color: #4d5ae5;
-  display: block;
-  border: none;
-  cursor: pointer;
-  border-radius: 4px;
-  min-width: 169px;
-  height: 56px;
-}
+
 ol,
 ul {
   margin: 0;
@@ -97,11 +89,14 @@ address {
 header {
   background: #ffffff;
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 /*section1 style start */
 
 .section-page-titel {
+  max-width: 1440px;
   background-color: #2e2f42;
   background-image: linear-gradient(
       to bottom,
@@ -129,6 +124,7 @@ header {
   color: #ffffff;
 }
 /*section1 style end */
+
 .conteiner-header {
   display: flex;
 }
@@ -137,6 +133,7 @@ header {
   display: flex;
   align-items: center;
 }
+/* меню хедера початок  */
 .page-nav {
   display: flex;
   gap: 40px;
@@ -155,6 +152,12 @@ header {
 .page-nav .nav-link:focus {
   color: #404bbf;
 }
+.page-nav li:first-child .nav-link {
+  color: #404bbf;
+  position: relative;
+}
+
+/* меню хедера кінецбь */
 .list-contacts {
   display: flex;
   gap: 40px;
@@ -170,7 +173,17 @@ header {
 .list-contacts .item-contacts:focus {
   color: #404bbf;
 }
-
+/*botton start*/
+button {
+  background-color: #4d5ae5;
+  display: block;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  min-width: 169px;
+  height: 56px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .button-text {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -184,6 +197,8 @@ button:hover,
 button:focus {
   background-color: #404bbf;
 }
+
+/*botton end*/
 
 .section-item-list {
   background-color: #ffffff;
